@@ -1,0 +1,83 @@
+{
+  "name": "project",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedFirst": {
+      "$className": "ReplicatedFirst",
+      "$ignoreUnknownInstances": true,
+      "$path": "src/ReplicatedFirst"
+    },
+    "Lighting" : {
+      "$className": "Lighting",
+      "$ignoreUnknownInstances": true,
+
+      "": {
+        "$path": "assets/lighting.rbxm"
+      }
+    },
+    "ServerStorage" : {
+      "$className": "ServerStorage",
+      "$ignoreUnknownInstances": true,
+
+      "": {
+        "$path": "assets/serverStorage.rbxm"
+      }
+    },
+    "SoundService" : {
+      "$className": "SoundService",
+      "$ignoreUnknownInstances": true,
+
+      "": {
+        "$path": "assets/soundService.rbxm"
+      }
+    },
+    "StarterPack" : {
+      "$className": "StarterPack",
+      "$ignoreUnknownInstances": true,
+
+      "": {
+        "$path": "assets/starterPack.rbxm"
+      }
+    },
+    "Workspace" : {
+      "$className": "Workspace",
+      "$ignoreUnknownInstances": true,
+
+      "": {
+        "$path": "assets/workspace.rbxm"
+      }
+    },
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "$ignoreUnknownInstances": true,
+      "$path": "src/ReplicatedStorage",
+
+      "": {
+        "$path": "assets/replicatedStorage.rbxm"
+      }
+    },
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "$ignoreUnknownInstances": true,
+      "$path": "src/ServerScriptService",
+
+      "": {
+        "$path": "assets/serverScriptService.rbxm"
+      }
+    },
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "StarterCharacterScripts": {
+        "$className": "StarterCharacterScripts",
+        "$ignoreUnknownInstances": true,
+        "$path": "src/StarterPlayer/StarterCharacterScripts"
+      },
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "$ignoreUnknownInstances": true,
+        "$path": "src/StarterPlayer/StarterPlayerScripts"
+      },
+      "$ignoreUnknownInstances": true
+    }
+  }
+}
